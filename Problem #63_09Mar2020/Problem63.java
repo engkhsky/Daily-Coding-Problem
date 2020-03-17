@@ -15,7 +15,7 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 */
 
-class Main {
+class Problem63 {
     public static void main(String[] args) {
         ArrayList<ArrayList<Character> > board
                 = new ArrayList<ArrayList<Character> >();

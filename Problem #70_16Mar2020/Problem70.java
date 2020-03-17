@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class Problem70 {
   public static void main(String[] args) {
     int n = readInt("Enter a number: ");
     int perfectNum = 0, digit = 0;
@@ -9,13 +9,13 @@ class Main {
       digit = 10 - n;
       String s = Integer.toString(n) + Integer.toString(digit);
       perfectNum = Integer.parseInt(s);
-      System.out.println("Result: " + perfectNum); 
+      System.out.println("Result: " + perfectNum);
     }
     else{
       System.out.println("n is more than 10!");
     }
 
-    
+
   }
 
   public static int readInt(String prompt) {
